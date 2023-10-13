@@ -7,7 +7,7 @@ public class Menu {
     public static void main(String[] args) {
         int op = 0;
         while (op != 3) {
-            system.out.print("");
+            system.out.print(""):
             op = Integer.parseInt(JOptionPane.showInputDialog(
                     "-----BIENVENIDO AL MENU-----\nSeleccione una opción:\n1. Pedir números hasta 0 y sumarlos\n2. Pedir 10 números y calcular el promedio\n3. Salir"));
 
