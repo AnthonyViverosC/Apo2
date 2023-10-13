@@ -19,6 +19,5 @@ public class Ejer1 {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Error: Ingrese un valor numérico válido.");
         }
-
     }
 }
