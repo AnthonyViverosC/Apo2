@@ -11,7 +11,7 @@ public class Menu {
                     "-----BIENVENIDO AL MENU-----\nSeleccione una opción:\n1. Pedir números hasta 0 y sumarlos\n2. Pedir 10 números y calcular el promedio\n3. Salir"));
 
             try {
-                switch (op) {
+                switch (op1) {
                     case 1:
                         int suma = 0;
                         int n = 1;
