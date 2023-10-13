@@ -17,7 +17,7 @@ public class Ejer1 {
             JOptionPane.showMessageDialog(null, "Las notas son " + notas[0] + "  " + notas[1] + "  " + notas[2]);
             JOptionPane.showMessageDialog(null, "el promedio es " + promedio);
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Ingrese un valor numérico valido.");
+            JOptionPane.showMessageDialog(null, "Ingrese un valor numérico valido");
         }
     }
 }
