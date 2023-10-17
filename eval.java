@@ -15,7 +15,7 @@ public class Eval {
                     notas[i] = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la nota para " + asignaturas[i]));
                     inputValido = true;
                 } catch (NumberFormatException e) {
-                    JOptionPane.showMessageDialog(null, "Por favor, ingrese un número válido para la nota de " + asignaturas[i]);
+                    JOptionPane.showMessageDialog(null, " ingrese un número válido para la nota de " + asignaturas[i]);
                 }
             } while (!inputValido);
         }
