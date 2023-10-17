@@ -1,8 +1,7 @@
-package Clases;
 
 import javax.swing.JOptionPane;
 
-public class Ejer1 {
+public class Trabajo {
 
     public static void main(String[] args) {
         // Uso de contenedoras
