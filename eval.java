@@ -1,4 +1,6 @@
-public class Eval {
+import javax.swing.JOptionPane;
+
+public class eval {
     public static void main(String[] args) {
         String asignaturas[] = new String[5];
         asignaturas[0] = "calculo";
@@ -11,9 +13,11 @@ public class Eval {
         for (int i = 0; i < 5; i++) {
             boolean inputValido = false;
             do {
+                            
                 try {
                     notas[i] = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la nota para " + asignaturas[i]));
                     inputValido = true;
+                            
                 } catch (NumberFormatException e) {
                     JOptionPane.showMessageDialog(null, " ingrese un número válido para la nota de " + asignaturas[i]);
                 }
