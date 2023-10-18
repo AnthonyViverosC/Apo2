@@ -32,6 +32,6 @@ public class DivisionMultiplicacion {
             System.out.println("Opción no válida. Debe seleccionar 1 o 2.");
         }
 
-        scanner.close();
+        
     }
 }
